@@ -1,0 +1,30 @@
+.text-center{
+    width: 30%;
+    margin: 130px auto;
+}
+
+.btn{
+    margin-top: 40px;
+}
+
+form{
+    margin-top: 30px;
+}
+
+@media (max-width: 480px){
+    .text-center{
+        width: 80%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .text-center{
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .text-center{
+        width: 40%;
+    }
+}

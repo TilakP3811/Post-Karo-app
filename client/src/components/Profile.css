@@ -1,0 +1,116 @@
+.profile-page {
+  padding-left: 14%;
+  padding-right: 14%;
+}
+
+.image-name {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0;
+}
+
+.profile-photo {
+  width: 160px;
+  border-radius: 80px;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  border-bottom: 1px solid;
+  border-color: rgb(194, 186, 186);
+}
+
+.follow-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.counts {
+  font-weight: bold;
+  color: rgb(31, 29, 29);
+}
+
+.f-names {
+  color: rgb(31, 29, 29);
+}
+
+.about-info {
+  text-align: center;
+}
+
+.follow-info p {
+  font-size: 1.2rem;
+  margin: 0 8px;
+  color: rgb(107, 104, 104);
+}
+
+.btn {
+  margin-top: 30px;
+}
+
+@media (max-width: 480px) {
+  .image-name {
+    flex-wrap: wrap;
+  }
+  .counts {
+    font-size: 1.3rem;
+  }
+  .f-names {
+    font-size: 1rem;
+    color: grey;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .image-name {
+    flex-wrap: wrap;
+  }
+}
+
+.posts {
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post-photo {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  margin: 1%;
+}
+
+@media (max-width: 480px) {
+  .post-photo {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    margin: 1%;
+  }
+  .profile-photo {
+    width: 100px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+  .profile-page {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .post-photo {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    margin: 1%;
+  }
+  .profile-photo {
+    width: 100px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+}
